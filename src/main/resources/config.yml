@@ -1,0 +1,7 @@
+# TNMC No Name Tags configuration file
+
+# The minimum distance in blocks a player can be to use the /showname command
+minimum-distance: 16
+
+# Time in seconds how long the /showname command should last for
+show-duration: 5

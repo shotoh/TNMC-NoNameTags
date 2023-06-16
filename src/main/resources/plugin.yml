@@ -1,8 +1,12 @@
 name: $name
 version: $version
-main: io.papermc.paperweight.testplugin.TestPlugin
+main: io.github.shotoh.nonametags.NoNameTags
 description: $description
 load: STARTUP
 authors:
-  - Author
+  - shotoh
 api-version: $apiVersion
+commands:
+    showname:
+        description: "Reveals your nametag to someone"
+        usage: "/showname (player)"
